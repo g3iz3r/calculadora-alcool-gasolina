@@ -1,0 +1,20 @@
+* {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+header {
+    background-color: A6AFBF !important;
+}
+
+footer {
+    background-color: A6AFBF !important;
+}
+
+main {
+    background-color: 004D7A !important;
+}
+
+.text-center {
+    color: 004D7A !important;
+}
