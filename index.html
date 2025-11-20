@@ -12,7 +12,7 @@
 <body>
     <header class="text-center"><b>Calculadora de combustivel</b></header>
     <main>
-        <div>
+        <div class="text">
             <h4>CALCULADORA ÁLCOOL OU GASOLINA</h4>
 
             <pre><b>
@@ -23,15 +23,16 @@
                 para garantir que você faça a escolha
                 mais econômica para o seu carro Flex.</b></pre>
         </div>
-        <Div>
+        <div class="borda">
             <h4>Calcular</h4>
-            <form action="/action_page_binary.asp" method="post">
+            <form action="">
                 <input type="number" placeholder="valor alcool" id="valorAlcool" name="alcool"><br><br>
-                <input type="text" placeholder="valor gasolina" id="valorGasolina" name="gasolina"><br><br>
-                <button onclick="calcularCombustivel">Calcular</button><br><br>
-                <input type="text" placeholder="resultado" value="resultado">
-        </Div>
-        </form>
+                <input type="number" placeholder="valor gasolina" id="valorGasolina" name="gasolina"><br><br>
+
+            </form>
+            <button type="button" id="btncalcular" onclick="calcularcombustivel()">Calcular</button>
+            <p id="resultado"></p>
+        </div>
 
 
     </main>
