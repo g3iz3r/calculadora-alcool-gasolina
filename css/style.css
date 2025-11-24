@@ -14,12 +14,19 @@ header {
 }
 
 main {
-    display: grid !important;
-    grid-template-columns: 45% 55% !important;
+    display:grid !important;
+    grid-template-columns: 60% 40%;
     width: 900;
     box-shadow: 0 10px 20px rgb(0, 0, 0, 0.15);
-    border-radius: 15px;
     overflow: hidden;
+}
+.borda{
+    width: 100%;
+    background-color: #B3D9EB !important;
+    border-radius: 8px !important;
+    gap: 10PX;
+    border-color: #052C43;
+    border-style: 10px solid !important;
 }
 
 footer {
