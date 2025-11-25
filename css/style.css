@@ -15,18 +15,26 @@ header {
 
 main {
     display:grid !important;
-    grid-template-columns: 60% 40%;
+    grid-template-columns: 70% 30%;
     width: 900;
     box-shadow: 0 10px 20px rgb(0, 0, 0, 0.15);
     overflow: hidden;
 }
+.titulo{
+    text-align: center;
+}
 .borda{
-    width: 100%;
+    
     background-color: #B3D9EB !important;
     border-radius: 8px !important;
-    gap: 10PX;
+    gap:10px;
     border-color: #052C43;
-    border-style: 10px solid !important;
+    border-style:solid !important;
+    border-width: 30px;
+    height: 400px;
+    width: 200px;
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
 
 footer {
